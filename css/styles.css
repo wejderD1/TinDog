@@ -2,15 +2,16 @@ body{
     font-family: 'Montserrat';
 }
 
-h3{
-    font-weight: 900;
-    font-size: 1.5rem;
-}
-
 h2{
     font-family: 'Montserrat';
     font-weight: 900;
     font-size: 3rem;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.5rem;
     line-height: 1.5;
 }
 
@@ -58,9 +59,16 @@ p{
     font-size: 1.2rem;
 }
 
-/* download-button */
+/* DOWNLOAD-BUTTON */
 .download-button{
     margin: 5% 3% 5% 0;
+}
+
+.download-button-apple:hover{
+    box-sizing: border-box;
+    background-color: transparent;
+    /* border: 1px #000; */
+    color: #000;
 }
 
 .button-icon{
@@ -142,3 +150,47 @@ p{
 .pricing-column{
     padding: 3% 2%;
 } 
+
+/* CTA */
+#cta{
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.cta-header{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+/* FOOTER */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icon{
+    margin: 20px 10px;
+}
+
+/* MEDIA */
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        margin: 0 auto;
+    }
+
+    .title-text{
+        font-size: 2.5rem;
+    }
+}
